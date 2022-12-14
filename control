@@ -1,0 +1,11 @@
+Package: com.michaelmelita1.detectedtext
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: Michael Melita
+Depends: mobilesubstrate, firmware (>= 15.0)
+Section: Tweaks
+Description: Live Text in the Camera App
+Author: Michael Melita
+Name: DetectedText
+Depiction: https://michaelmelita1.github.io/depictions/?p=com.michaelmelita1.detectedtext
+Sileodepiction: https://michaelmelita1.github.io/sileodepictions/com.michaelmelita1.detectedtext/info.json
