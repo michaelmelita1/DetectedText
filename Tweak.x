@@ -7,3 +7,8 @@
                 return YES;
 }
 %end
+%hook VKImageAnalyzer
++ (BOOL)deviceSupportsImageAnalysis {
+    return YES;
+}
+%end
