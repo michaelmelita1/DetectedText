@@ -8,7 +8,10 @@
 }
 %end
 %hook VKImageAnalyzer
-+ (BOOL)deviceSupportsImageAnalysis {
+-(bool)deviceSupportsImageAnalysis {
     return YES;
+}
+-(long long)supportedAnalysisTypes {
+		return 2;
 }
 %end
